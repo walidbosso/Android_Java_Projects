@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP3</string>
+    <!-- Other strings... -->
+    <string-array name="currency_array">
+        <item>Dollar américain</item>
+        <item>Dollar canadien</item>
+        <item>Euro</item>
+    </string-array>
+</resources>
