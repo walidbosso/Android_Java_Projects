@@ -19,9 +19,9 @@ public class Convertisseur extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.convertisseur);
+        setContentView(R.layout.convertisseur); //fichier xml layout
 
-        currencySpinner = findViewById(R.id.currencySpinner);
+        currencySpinner = findViewById(R.id.currencySpinner); //android:id="@+id/currencySpinner" dans xml
         amountInput = findViewById(R.id.amountInput);
         resultText = findViewById(R.id.amountInput2);
 
@@ -48,6 +48,7 @@ public class Convertisseur extends AppCompatActivity {
     }
 
     public void convertButton() {
+//        tjrs gettext tostring il faut parse
             double amount = Double.parseDouble(amountInput.getText().toString());
         double convertedAmount = 0;
 
@@ -66,6 +67,6 @@ public class Convertisseur extends AppCompatActivity {
         }
 
         String result = String.format("%.2f", convertedAmount) ;
-        resultText.setText(result);
+        resultText.setText(result); //label textview
     }
 }

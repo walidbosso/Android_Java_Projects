@@ -13,16 +13,22 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Verification_age extends AppCompatActivity {
+//    ATTRIBUITS, the ones we extract from xml or we deal with
     private EditText editTextName, editTextDob;
     private Button buttonVerifier, buttonQuitter;
     private TextView textViewResult;
+//    we will need it to convert text to date
     private SimpleDateFormat sdf;
+
+
+//after attributs, onCreate
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_age);
+        setContentView(R.layout.verification_age); // here where we call the xml file
 
+//Extract data from inputs, and buttons = create the link between our code and these components
 //        name
         editTextName = findViewById(R.id.nameEditText);
 //        date of birth editext

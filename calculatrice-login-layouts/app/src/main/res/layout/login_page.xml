@@ -7,11 +7,13 @@
     android:background="#198036"
     tools:context=".MainActivity">
 
-
+<!--src cest image -->
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:src="@drawable/user"
+        
         tools:layout_editor_absoluteX="128dp"
         tools:layout_editor_absoluteY="137dp" />
 
@@ -20,8 +22,11 @@
         android:layout_height="350dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/bg_white"
+
         android:orientation="vertical"
+
         android:padding="30dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="-40dp">
 
