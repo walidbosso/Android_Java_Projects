@@ -30,11 +30,15 @@ This repository contains Android Java projects developed as part of the Master M
 
 ## Projects:
 
-### 1. Age Verification App
+### 1. To do list using SQLIite
+- Full CRUD Project with a good UX, stored in a DataBase using SQLite `Do-It-List`
+- You can add a Task, swipe to left to delete it, swipe to right to edit it and check it to change its status from done/undone, all will be stored in db.
+
+### 2. Age Verification App
 - Implements an interface to verify a person's age.
 - Provides buttons to check age and exit the application.
 
-### 2. Currency Converter App
+### 3. Currency Converter App
 - Develops an Android application named "Convertisseur."
 - Converts Euro, US Dollar, and Canadian Dollar to Dirham Marocain.
 - Conversion rates:
@@ -42,12 +46,13 @@ This repository contains Android Java projects developed as part of the Master M
   - 1 Dollar Canadian = 7.03 Dirham Marocain
   - 1 Euro = 11.02 Dirham Marocain
 
-### 3. Calculator App
+### 4. Calculator App
 - Allows the user to perform addition, subtraction, multiplication, or division of two integers.
 - Includes a user interface for input and operation selection.
 
-### 4. Calculator App and login User Interfaces
+### 5. Calculator App and login User Interfaces
 - Designs or user interface for both functionalities, can be found on `calculatrice-login-layouts`
+
 
 ## Contributing
 
